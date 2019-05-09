@@ -1,0 +1,140 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header-section{
+	background-color: black;
+}
+
+nav{
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul{}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+}
+nav ul li a img{
+    width: 160px;
+    vertical-align: middle;
+}
+nav ul li a:hover{
+    color: #12b459;
+}
+
+.form-section{
+	background: url(../images/house3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 750px;
+	overflow: hidden;
+	padding: 100px 100px;
+}
+
+.form-left{
+	float: left;
+	width: 50%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.form-left h1{
+	text-transform: uppercase;
+	font-size: 35px;
+	color: white;
+}
+.form-left h1 span{
+    color: #12b459;
+}
+.form-left p{
+	margin: 15px 0;
+	font-size: 17px;
+	color: white;
+}
+.form-left ul{}
+.form-left ul li{
+	list-style: none;
+	font-size: 17px;
+	margin: 5px 0;
+	color: #fff;
+}
+.form-left ul li a{
+    color: white;
+}
+.far fa-check-circle{}
+
+.button{}
+.button a{
+	color: #fff;
+	background: #0000ff9e;
+	padding: 10px 30px;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-table;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+
+.form-right{
+	width: 40%;
+	float: left;
+	padding: 30px;
+	margin-left: 80px;
+}
+
+.form-right-info{
+	background-color: #0000ff9e;
+	border-radius: 5px;
+	padding: 30px 15px;
+	text-align: center;
+	margin-right: 40px;
+}
+
+form h1{
+	margin: 10px 0;
+	text-transform: uppercase;
+	font-size: 32px;
+	color: white;
+}
+form p{
+    margin-bottom: 30px;
+    font-weight: 300;
+    padding: 0px 10px;
+    color: white;
+}
+form input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.register-btn{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px !important;
+	background-color: #0000ff9e;
+}
+
+
+
